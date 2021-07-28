@@ -19,7 +19,7 @@ void setup(){
     translate(width/2+50, height-50);
     list.append(n);
     
-    while(n!= 1){
+    while(n!= 1){                      // insert each number to the list
        n = collatz(n);
        list.append(n);
     }
